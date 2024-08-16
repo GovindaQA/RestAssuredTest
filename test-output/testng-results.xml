@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-16T15:55:32 IST" name="Default suite" finished-at="2024-08-16T15:55:33 IST" duration-ms="1015">
+  <suite started-at="2024-08-16T17:49:46 IST" name="Default suite" finished-at="2024-08-16T17:49:50 IST" duration-ms="3550">
     <groups>
     </groups>
-    <test started-at="2024-08-16T15:55:32 IST" name="Default test" finished-at="2024-08-16T15:55:33 IST" duration-ms="1015">
+    <test started-at="2024-08-16T17:49:46 IST" name="Default test" finished-at="2024-08-16T17:49:50 IST" duration-ms="3550">
       <class name="setUpforRestAssured.Tests.HTTPMethods">
-        <test-method signature="getUser()[pri:0, instance:setUpforRestAssured.Tests.HTTPMethods@6adbc9d]" started-at="2024-08-16T15:55:32 IST" name="getUser" finished-at="2024-08-16T15:55:33 IST" duration-ms="978" status="PASS">
+        <test-method signature="createUser()[pri:1, instance:setUpforRestAssured.Tests.HTTPMethods@6adbc9d]" started-at="2024-08-16T17:49:46 IST" name="createUser" finished-at="2024-08-16T17:49:48 IST" duration-ms="1395" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getUser -->
+        </test-method> <!-- createUser -->
+        <test-method signature="addUser()[pri:2, instance:setUpforRestAssured.Tests.HTTPMethods@6adbc9d]" started-at="2024-08-16T17:49:48 IST" name="addUser" finished-at="2024-08-16T17:49:49 IST" duration-ms="1020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUser -->
+        <test-method signature="updateData()[pri:3, instance:setUpforRestAssured.Tests.HTTPMethods@6adbc9d]" started-at="2024-08-16T17:49:49 IST" name="updateData" finished-at="2024-08-16T17:49:49 IST" duration-ms="492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateData -->
+        <test-method signature="deleteData()[pri:4, instance:setUpforRestAssured.Tests.HTTPMethods@6adbc9d]" started-at="2024-08-16T17:49:49 IST" name="deleteData" finished-at="2024-08-16T17:49:50 IST" duration-ms="595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteData -->
       </class> <!-- setUpforRestAssured.Tests.HTTPMethods -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
